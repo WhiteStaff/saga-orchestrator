@@ -2,6 +2,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "saga-orchestrator", "saga-orchestrator.csproj", "{B4A6E268-08FE-48D2-94B6-929C9C874E16}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{022BE5B6-14E6-481B-A296-6FA3FE08EDCC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{8FE99FF6-5107-4E59-B5DE-AA7220CC9324}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +16,8 @@ Global
 		{B4A6E268-08FE-48D2-94B6-929C9C874E16}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4A6E268-08FE-48D2-94B6-929C9C874E16}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4A6E268-08FE-48D2-94B6-929C9C874E16}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B4A6E268-08FE-48D2-94B6-929C9C874E16} = {022BE5B6-14E6-481B-A296-6FA3FE08EDCC}
 	EndGlobalSection
 EndGlobal
